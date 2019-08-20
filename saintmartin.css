@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(28, 145, 255, 0.1)),
+    url("./img/saintmartinboat.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+#content {
+  text-align: center;
+  padding-top: 15%;
+  text-shadow: 2px 2px 4px rgb(48, 48, 48);
+}
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+hr {
+  width: 400px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid grey;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33333;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 6px;
+  background-color: #58dbfc;
+}
+.btn-group-lg > .btn,
+.btn-lg:hover {
+  color: white;
+  background-color: #58dbfc;
+  transition: 0.3s;
+}
+
+.btn-group-lg > .btn,
+.btn-lg:hover:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
