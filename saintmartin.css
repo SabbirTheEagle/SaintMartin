@@ -30,13 +30,18 @@ hr {
   padding: 15px 25px;
   border: none;
   border-radius: 6px;
-  background-color: #58dbfc;
+  background-color: #0ab7e2;
 }
 .btn-group-lg > .btn,
 .btn-lg:hover {
   color: white;
-  background-color: #58dbfc;
+  background-color: #ff2c2c;
   transition: 0.3s;
+}
+
+.btn-group-lg > .btn,
+.btn-lg:focus {
+  outline: none;
 }
 
 .btn-group-lg > .btn,
